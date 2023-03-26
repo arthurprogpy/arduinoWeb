@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>LED controlar</title>
+    <style>
+      button {
+        font-size: 20px;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #3e8e41;
+      }
+
+      .led-on {
+        background-color: green;
+      }
+
+      .led-off {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Controle do LED</h1>
+    <button id="led-button" class="led-off">Ligar LED</button>
+    <script src="script.js"></script>
+  </body>
+</html>
